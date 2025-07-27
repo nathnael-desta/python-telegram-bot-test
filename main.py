@@ -1,3 +1,4 @@
+from collections import Counter
 import os
 from typing import Final
 from telegram import Update
@@ -11,6 +12,17 @@ with open('data/jobs.json', 'r') as file:
 
 TOKEN: Final[str] = os.getenv("Token")
 BOT_USERNAME: Final[str] = os.getenv("BOT_USERNAME")
+
+# Extract all expertise mentions
+expertise_list = []
+for job in jobs_data:
+    expertise_list.extend(job['expertise'])
+
+# Count the occurrences of each expertise
+expertise_counter = Counter(expertise_list)
+
+# Sort expertise by popularity (descending order)
+sorted_expertise = expertise_counter.most_common()
 
 
 # Commands
@@ -61,10 +73,21 @@ async def jobs_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
             )
             await update.message.reply_text(job_text, parse_mode="HTML")
 
-    # for job in jobs_data:
-    #     if 
+async def rank_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    args = context.args
+    if not args:
+        for rank, (expertise, count) in enumerate(sorted_expertise, start=1):
+            rank_text = (f"{rank}. {expertise} - {count} mentions")
+            await update.message.reply_text(rank_text)
+        return
 
-# Responses
+    for arg in args:
+        if arg.lower() in expertise_counter:
+            count = expertise_counter[arg.lower()]
+            rank_text = f"{arg.title()} is mentioned {count} times."
+        else:
+            rank_text = f"{arg.title()} is not found in the expertise list."
+        await update.message.reply_text(rank_text)
 
 def handle_response(text: str) -> str:
     if 'hello' in text.lower():
@@ -107,6 +130,7 @@ if __name__ == '__main__':
     app.add_handler(CommandHandler('help', help_command))
     app.add_handler(CommandHandler('custom', custom_command))
     app.add_handler(CommandHandler('jobs', jobs_command))
+    app.add_handler(CommandHandler('rank', rank_command))
 
     # Messages
     app.add_handler(MessageHandler(filters.TEXT, handle_message))

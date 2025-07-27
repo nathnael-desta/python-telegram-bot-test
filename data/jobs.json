@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "title": "backend developer",
+    "company": "technova",
+    "location": "remote",
+    "expertise": ["python", "django", "postgresql", "redis"],
+    "salary": "€55,000 - €70,000",
+    "source": "telegram channel: @remotedevjobs"
+  },
+  {
+    "id": 2,
+    "title": "frontend developer",
+    "company": "pixelperfect",
+    "location": "germany",
+    "expertise": ["react", "javascript", "tailwindcss"],
+    "salary": "$60,000 - $80,000",
+    "source": "remoteok.io"
+  },
+  {
+    "id": 3,
+    "title": "data analyst",
+    "company": "insightworks",
+    "location": "remote",
+    "expertise": ["python", "pandas", "sql", "power bi"],
+    "salary": "£45,000 - £55,000",
+    "source": "telegram channel: @datajobs"
+  },
+  {
+    "id": 4,
+    "title": "devops engineer",
+    "company": "cloudops ltd.",
+    "location": "usa",
+    "expertise": ["aws", "docker", "kubernetes", "go"],
+    "salary": "$100,000 - $130,000",
+    "source": "weworkremotely.com"
+  },
+  {
+    "id": 5,
+    "title": "ai research intern",
+    "company": "deepvision ai",
+    "location": "remote",
+    "expertise": ["python", "pytorch", "nlp"],
+    "salary": "unpaid (internship)",
+    "source": "telegram channel: @aiinternships"
+  },
+  {
+    "id": 6,
+    "title": "full-stack developer",
+    "company": "codecrafters",
+    "location": "remote (eu only)",
+    "expertise": ["node.js", "react", "typescript", "mongodb", "express"],
+    "salary": "€70,000 - €90,000",
+    "source": "linkedin"
+  },
+  {
+    "id": 7,
+    "title": "ios developer",
+    "company": "appify",
+    "location": "remote (us only)",
+    "expertise": ["swift", "swiftui", "coredata"],
+    "salary": "$110,000 - $140,000",
+    "source": "angellist"
+  },
+  {
+    "id": 8,
+    "title": "android developer",
+    "company": "mobilefirst",
+    "location": "india",
+    "expertise": ["kotlin", "jetpack compose", "coroutines", "room"],
+    "salary": "₹1,800,000 - ₹2,500,000",
+    "source": "naukri.com"
+  },
+  {
+    "id": 9,
+    "title": "ui/ux designer",
+    "company": "creativeminds",
+    "location": "remote",
+    "expertise": ["figma", "adobe xd", "sketch", "user research"],
+    "salary": "$75,000 - $95,000",
+    "source": "dribbble jobs"
+  },
+  {
+    "id": 10,
+    "title": "machine learning engineer",
+    "company": "quantumleap",
+    "location": "canada",
+    "expertise": ["python", "tensorflow", "scikit-learn", "gcp", "kubeflow"],
+    "salary": "$120,000 cad - $150,000 cad",
+    "source": "hired.com"
+  },
+  {
+    "id": 11,
+    "title": "site reliability engineer (sre)",
+    "company": "stablenet",
+    "location": "remote",
+    "expertise": ["go", "prometheus", "grafana", "kubernetes", "azure"],
+    "salary": "€85,000 - €110,000",
+    "source": "sre.google/jobs"
+  },
+  {
+    "id": 12,
+    "title": "product manager",
+    "company": "innovate solutions",
+    "location": "united kingdom",
+    "expertise": ["jira", "agile", "roadmapping", "market analysis"],
+    "salary": "£65,000 - £85,000",
+    "source": "mindtheproduct"
+  },
+  {
+    "id": 13,
+    "title": "qa engineer (automation)",
+    "company": "bugfree inc.",
+    "location": "remote",
+    "expertise": ["selenium", "cypress", "javascript", "ci/cd", "postman"],
+    "salary": "$80,000 - $105,000",
+    "source": "glassdoor"
+  },
+  {
+    "id": 14,
+    "title": "junior backend developer",
+    "company": "nextgen systems",
+    "location": "remote (cet +/- 2h)",
+    "expertise": ["java", "spring boot", "mysql"],
+    "salary": "€40,000 - €50,000",
+    "source": "stack overflow jobs"
+  },
+  {
+    "id": 15,
+    "title": "senior frontend developer",
+    "company": "agileminds",
+    "location": "remote",
+    "expertise": ["vue.js", "nuxt.js", "typescript", "graphql"],
+    "salary": "£70,000 - £90,000",
+    "source": "telegram channel: @vuejobs"
+  },
+  {
+    "id": 16,
+    "title": "data scientist",
+    "company": "datasphere",
+    "location": "usa",
+    "expertise": ["python", "r", "spark", "sql", "tableau"],
+    "salary": "$130,000 - $160,000",
+    "source": "kaggle jobs"
+  },
+  {
+    "id": 17,
+    "title": "cloud architect",
+    "company": "virtucorp",
+    "location": "remote",
+    "expertise": ["aws", "azure", "gcp", "terraform", "cloudformation"],
+    "salary": "$150,000 - $190,000",
+    "source": "linkedin"
+  },
+  {
+    "id": 18,
+    "title": "technical writer",
+    "company": "docuperfect",
+    "location": "remote",
+    "expertise": ["markdown", "git", "swagger", "confluence"],
+    "salary": "competitive",
+    "source": "writethedocs"
+  },
+  {
+    "id": 19,
+    "title": "ruby on rails developer",
+    "company": "logicloop",
+    "location": "remote (us/canada)",
+    "expertise": ["ruby", "rails", "hotwire", "postgresql"],
+    "salary": "$95,000 - $125,000",
+    "source": "gorails.com/jobs"
+  },
+  {
+    "id": 20,
+    "title": "cybersecurity analyst",
+    "company": "securecore",
+    "location": "remote",
+    "expertise": ["siem", "wireshark", "metasploit", "python"],
+    "salary": "€75,000 - €95,000",
+    "source": "cybersecurityjobs.com"
+  },
+  {
+    "id": 21,
+    "title": "php developer",
+    "company": "webweavers",
+    "location": "remote",
+    "expertise": ["php", "laravel", "mysql", "vue.js"],
+    "salary": "$70,000 - $90,000",
+    "source": "larajobs"
+  },
+  {
+    "id": 22,
+    "title": "flutter developer",
+    "company": "crossplatform co.",
+    "location": "remote",
+    "expertise": ["flutter", "dart", "firebase", "bloc"],
+    "salary": "£50,000 - £65,000",
+    "source": "telegram channel: @flutter_jobs"
+  },
+  {
+    "id": 23,
+    "title": "database administrator (dba)",
+    "company": "datakeepers",
+    "location": "remote (est)",
+    "expertise": ["postgresql", "mysql", "performance tuning", "backup/recovery"],
+    "salary": "$100,000 - $120,000",
+    "source": "dba.stackexchange.com/jobs"
+  },
+  {
+    "id": 24,
+    "title": "lead devops engineer",
+    "company": "scaleup",
+    "location": "netherlands",
+    "expertise": ["gcp", "kubernetes", "terraform", "python", "ci/cd"],
+    "salary": "€95,000 - €120,000",
+    "source": "weworkremotely.com"
+  },
+  {
+    "id": 25,
+    "title": "react native developer",
+    "company": "appworks",
+    "location": "remote",
+    "expertise": ["react native", "typescript", "redux", "firebase"],
+    "salary": "$90,000 - $115,000",
+    "source": "remoteok.io"
+  },
+  {
+    "id": 26,
+    "title": "golang developer",
+    "company": "gofast",
+    "location": "remote",
+    "expertise": ["go", "grpc", "docker", "microservices"],
+    "salary": "€80,000 - €100,000",
+    "source": "telegram channel: @golang_jobs"
+  },
+  {
+    "id": 27,
+    "title": "junior data analyst",
+    "company": "numbercrunch",
+    "location": "remote (internship to hire)",
+    "expertise": ["sql", "excel", "python", "tableau"],
+    "salary": "$50,000 - $60,000",
+    "source": "linkedin"
+  },
+  {
+    "id": 28,
+    "title": "senior product designer",
+    "company": "userflow",
+    "location": "remote",
+    "expertise": ["figma", "design systems", "prototyping", "ux writing"],
+    "salary": "£75,000 - £95,000",
+    "source": "designjobs.io"
+  },
+  {
+    "id": 29,
+    "title": "elixir/phoenix developer",
+    "company": "beamtech",
+    "location": "remote",
+    "expertise": ["elixir", "phoenix", "liveview", "postgresql"],
+    "salary": "$120,000 - $150,000",
+    "source": "elixirjobs.net"
+  },
+  {
+    "id": 30,
+    "title": "cloud security engineer",
+    "company": "securecloud",
+    "location": "remote (us)",
+    "expertise": ["aws security", "iam", "guardduty", "terraform", "python"],
+    "salary": "$140,000 - $170,000",
+    "source": "indeed"
+  },
+  {
+    "id": 31,
+    "title": "frontend engineer (angular)",
+    "company": "enterprise solutions",
+    "location": "germany",
+    "expertise": ["angular", "typescript", "rxjs", "ngrx"],
+    "salary": "€65,000 - €80,000",
+    "source": "telegram channel: @angular_jobs"
+  },
+  {
+    "id": 32,
+    "title": "data engineer",
+    "company": "pipeline pro",
+    "location": "remote",
+    "expertise": ["python", "airflow", "spark", "kafka", "aws"],
+    "salary": "$125,000 - $155,000",
+    "source": "dataengjobs.com"
+  },
+  {
+    "id": 33,
+    "title": "engineering manager",
+    "company": "leadtheway",
+    "location": "remote",
+    "expertise": ["leadership", "agile", "system design", "mentoring"],
+    "salary": "£100,000 - £130,000",
+    "source": "linkedin"
+  },
+  {
+    "id": 34,
+    "title": "c++ developer (hft)",
+    "company": "quant algo",
+    "location": "remote (globally)",
+    "expertise": ["c++17", "low latency", "linux", "python"],
+    "salary": "$200,000 - $300,000 + bonus",
+    "source": "efinancialcareers"
+  },
+  {
+    "id": 35,
+    "title": "mid-level full-stack developer",
+    "company": "connect all",
+    "location": "remote (canada)",
+    "expertise": ["react", "node.js", "postgresql", "docker", "aws"],
+    "salary": "$90,000 cad - $110,000 cad",
+    "source": "jobspresso"
+  },
+  {
+    "id": 36,
+    "title": "salesforce developer",
+    "company": "cloudforce",
+    "location": "remote",
+    "expertise": ["apex", "lightning web components", "soql"],
+    "salary": "$105,000 - $135,000",
+    "source": "salesforce appexchange"
+  },
+  {
+    "id": 37,
+    "title": "game developer (unity)",
+    "company": "playful pixels",
+    "location": "remote",
+    "expertise": ["c#", "unity", "3d math", "shaderlab"],
+    "salary": "€50,000 - €70,000",
+    "source": "gamedev.jobs"
+  },
+  {
+    "id": 38,
+    "title": "seo specialist",
+    "company": "rankhigh",
+    "location": "remote",
+    "expertise": ["ahrefs", "semrush", "google analytics", "content strategy"],
+    "salary": "$60,000 - $75,000",
+    "source": "dynamite jobs"
+  },
+  {
+    "id": 39,
+    "title": "blockchain developer",
+    "company": "cryptochain",
+    "location": "remote",
+    "expertise": ["solidity", "ethereum", "hardhat", "web3.js"],
+    "salary": "$130,000 - $180,000",
+    "source": "cryptojobslist"
+  },
+  {
+    "id": 40,
+    "title": "devrel (developer advocate)",
+    "company": "api first",
+    "location": "remote (us)",
+    "expertise": ["public speaking", "technical writing", "node.js", "community building"],
+    "salary": "$120,000 - $160,000",
+    "source": "devrelate.io"
+  },
+  {
+    "id": 41,
+    "title": "bi developer",
+    "company": "dashboard inc.",
+    "location": "remote",
+    "expertise": ["tableau", "power bi", "sql", "etl"],
+    "salary": "£55,000 - £70,000",
+    "source": "telegram channel: @bijobs"
+  },
+  {
+    "id": 42,
+    "title": "systems administrator",
+    "company": "infraserve",
+    "location": "remote",
+    "expertise": ["linux", "bash", "ansible", "networking"],
+    "salary": "$85,000 - $100,000",
+    "source": "serverfault jobs"
+  },
+  {
+    "id": 43,
+    "title": "svelte developer",
+    "company": "component co.",
+    "location": "remote",
+    "expertise": ["svelte", "sveltekit", "typescript", "vite"],
+    "salary": "€60,000 - €80,000",
+    "source": "svelte society jobs"
+  },
+  {
+    "id": 44,
+    "title": "it support engineer",
+    "company": "helpdesk heroes",
+    "location": "remote (uk)",
+    "expertise": ["active directory", "o365", "zendesk", "networking"],
+    "salary": "£35,000 - £45,000",
+    "source": "reed.co.uk"
+  },
+  {
+    "id": 45,
+    "title": "computer vision engineer",
+    "company": "visionary ai",
+    "location": "remote",
+    "expertise": ["python", "opencv", "pytorch", "cuda"],
+    "salary": "$140,000 - $175,000",
+    "source": "ai-jobs.net"
+  },
+  {
+    "id": 46,
+    "title": "head of engineering",
+    "company": "scalefast",
+    "location": "remote",
+    "expertise": ["strategic planning", "team leadership", "budgeting", "architectural oversight"],
+    "salary": "$180,000 - $240,000",
+    "source": "ventureloop"
+  },
+  {
+    "id": 47,
+    "title": "wordpress developer",
+    "company": "webpress",
+    "location": "remote",
+    "expertise": ["php", "wordpress", "javascript", "acf", "gutenberg"],
+    "salary": "hourly: $50 - $75",
+    "source": "codeable.io"
+  },
+  {
+    "id": 48,
+    "title": "staff backend engineer (java)",
+    "company": "corelogic",
+    "location": "remote (us)",
+    "expertise": ["java", "spring", "kafka", "microservices", "system design"],
+    "salary": "$170,000 - $210,000",
+    "source": "linkedin"
+  },
+  {
+    "id": 49,
+    "title": "junior devops engineer",
+    "company": "deploynow",
+    "location": "remote (eu)",
+    "expertise": ["docker", "jenkins", "aws", "bash"],
+    "salary": "€45,000 - €60,000",
+    "source": "remoteok.io"
+  },
+  {
+    "id": 50,
+    "title": "principal frontend engineer",
+    "company": "ui architects",
+    "location": "remote",
+    "expertise": ["react", "typescript", "micro-frontends", "performance", "architecture"],
+    "salary": "£100,000 - £125,000",
+    "source": "hired.com"
+  },
+  {
+    "id": 51,
+    "title": "rust developer",
+    "company": "ferris systems",
+    "location": "remote",
+    "expertise": ["rust", "actix", "tokio", "cargo", "postgresql"],
+    "salary": "$130,000 - $160,000",
+    "source": "telegram channel: @rust_jobs"
+  },
+  {
+    "id": 52,
+    "title": "scrum master",
+    "company": "agileflow",
+    "location": "remote",
+    "expertise": ["scrum", "kanban", "jira", "facilitation"],
+    "salary": "€70,000 - €85,000",
+    "source": "scrum.org"
+  },
+  {
+    "id": 53,
+    "title": "data visualization specialist",
+    "company": "chartify",
+    "location": "remote",
+    "expertise": ["d3.js", "tableau", "javascript", "data storytelling"],
+    "salary": "$90,000 - $110,000",
+    "source": "datavis.jobs"
+  },
+  {
+    "id": 54,
+    "title": "python scraping developer",
+    "company": "dataharvest",
+    "location": "remote (project-based)",
+    "expertise": ["python", "scrapy", "beautifulsoup", "selenium", "proxies"],
+    "salary": "project rate: $5,000 - $10,000",
+    "source": "upwork"
+  },
+  {
+    "id": 55,
+    "title": "embedded systems engineer",
+    "company": "deviceworks",
+    "location": "remote (hybrid option)",
+    "expertise": ["c", "c++", "rtos", "linux kernel", "yocto"],
+    "salary": "$110,000 - $140,000",
+    "source": "embedded.com jobs"
+  },
+  {
+    "id": 56,
+    "title": "growth hacker / marketer",
+    "company": "startupboost",
+    "location": "remote",
+    "expertise": ["a/b testing", "seo/sem", "social media", "data analysis"],
+    "salary": "competitive + equity",
+    "source": "angellist"
+  },
+  {
+    "id": 57,
+    "title": "senior data scientist (nlp)",
+    "company": "textual ai",
+    "location": "remote (us/canada)",
+    "expertise": ["python", "hugging face", "pytorch", "spacy", "llms"],
+    "salary": "$160,000 - $200,000",
+    "source": "ai-jobs.net"
+  },
+  {
+    "id": 58,
+    "title": "solutions architect",
+    "company": "clientfirst tech",
+    "location": "remote",
+    "expertise": ["pre-sales", "aws/azure", "system design", "client-facing"],
+    "salary": "€100,000 - €130,000 + commission",
+    "source": "linkedin"
+  },
+  {
+    "id": 59,
+    "title": "shopify developer",
+    "company": "ecomm experts",
+    "location": "remote",
+    "expertise": ["liquid", "shopify api", "javascript", "react"],
+    "salary": "$80,000 - $110,000",
+    "source": "shopify partner jobs"
+  },
+  {
+    "id": 60,
+    "title": "head of data",
+    "company": "insightful leaders",
+    "location": "remote (eu)",
+    "expertise": ["data strategy", "team management", "data governance", "python", "sql"],
+    "salary": "£120,000 - £150,000",
+    "source": "dataleaders.net"
+  },
+  {
+    "id": 61,
+    "title": "backend engineer (node.js)",
+    "company": "realtime apps",
+    "location": "remote",
+    "expertise": ["node.js", "typescript", "fastify", "postgresql", "websockets"],
+    "salary": "$110,000 - $140,000",
+    "source": "remotive.io"
+  },
+  {
+    "id": 62,
+    "title": "frontend developer (vue.js)",
+    "company": "viewpoint systems",
+    "location": "remote",
+    "expertise": ["vue.js", "vuex", "typescript", "scss"],
+    "salary": "€60,000 - €75,000",
+    "source": "vuejobs.com"
+  },
+  {
+    "id": 63,
+    "title": "data analyst (marketing)",
+    "company": "admetrics",
+    "location": "remote (us)",
+    "expertise": ["sql", "google analytics", "tableau", "python"],
+    "salary": "$85,000 - $105,000",
+    "source": "glassdoor"
+  },
+  {
+    "id": 64,
+    "title": "senior devops engineer (azure)",
+    "company": "bluecloud partners",
+    "location": "remote (uk)",
+    "expertise": ["azure", "azure devops", "terraform", "powershell", "kubernetes"],
+    "salary": "£80,000 - £100,000",
+    "source": "technojobs"
+  },
+  {
+    "id": 65,
+    "title": "machine learning intern",
+    "company": "futureai",
+    "location": "remote",
+    "expertise": ["python", "tensorflow", "pandas", "jupyter"],
+    "salary": "$25/hour",
+    "source": "handshake"
+  },
+  {
+    "id": 66,
+    "title": "lead full-stack engineer",
+    "company": "builditright",
+    "location": "remote",
+    "expertise": ["go", "react", "grpc", "docker", "gcp"],
+    "salary": "$160,000 - $190,000",
+    "source": "weworkremotely.com"
+  },
+  {
+    "id": 67,
+    "title": "mobile qa engineer",
+    "company": "appperfect",
+    "location": "remote",
+    "expertise": ["appium", "xcuitest", "espresso", "postman"],
+    "salary": "€55,000 - €70,000",
+    "source": "utest"
+  },
+  {
+    "id": 68,
+    "title": "technical product manager",
+    "company": "feature factory",
+    "location": "remote (pst)",
+    "expertise": ["api design", "agile", "jira", "system architecture"],
+    "salary": "$140,000 - $170,000",
+    "source": "producthunt jobs"
+  },
+  {
+    "id": 69,
+    "title": "haskell developer",
+    "company": "functional works",
+    "location": "remote",
+    "expertise": ["haskell", "yesod", "persistent", "nix"],
+    "salary": "£75,000 - £100,000",
+    "source": "haskell.org jobs"
+  },
+  {
+    "id": 70,
+    "title": "cloud finops specialist",
+    "company": "costcontrol",
+    "location": "remote",
+    "expertise": ["cloud cost management", "aws cost explorer", "azure cost management", "data analysis"],
+    "salary": "$110,000 - $140,000",
+    "source": "finops foundation"
+  },
+  {
+    "id": 71,
+    "title": "unity technical artist",
+    "company": "gameart",
+    "location": "remote",
+    "expertise": ["unity", "c#", "shaders", "vfx", "blender"],
+    "salary": "$80,000 - $100,000",
+    "source": "artstation jobs"
+  },
+  {
+    "id": 72,
+    "title": "scala developer",
+    "company": "databricks",
+    "location": "remote",
+    "expertise": ["scala", "akka", "spark", "play framework"],
+    "salary": "$130,000 - $160,000",
+    "source": "linkedin"
+  },
+  {
+    "id": 73,
+    "title": "information security officer",
+    "company": "trustnet",
+    "location": "remote",
+    "expertise": ["iso 27001", "gdpr", "risk assessment", "security policy"],
+    "salary": "€90,000 - €110,000",
+    "source": "(isc)² job board"
+  },
+  {
+    "id": 74,
+    "title": "junior frontend developer",
+    "company": "webstart",
+    "location": "remote (internship)",
+    "expertise": ["html", "css", "javascript", "react"],
+    "salary": "paid internship ($20/hr)",
+    "source": "built in"
+  },
+  {
+    "id": 75,
+    "title": "senior backend developer (python)",
+    "company": "scaleapi",
+    "location": "remote (eu)",
+    "expertise": ["python", "fastapi", "postgresql", "docker", "aws"],
+    "salary": "€85,000 - €105,000",
+    "source": "remoteok.io"
+  },
+  {
+    "id": 76,
+    "title": "kubernetes administrator",
+    "company": "orchestrate it",
+    "location": "remote",
+    "expertise": ["kubernetes", "helm", "docker", "prometheus", "istio"],
+    "salary": "$120,000 - $150,000",
+    "source": "cncf jobs board"
+  },
+  {
+    "id": 77,
+    "title": "kotlin multiplatform developer",
+    "company": "unified code",
+    "location": "remote",
+    "expertise": ["kotlin multiplatform", "jetpack compose", "swiftui", "ktor"],
+    "salary": "$115,000 - $145,000",
+    "source": "kotlin gigs"
+  },
+  {
+    "id": 78,
+    "title": "ux researcher",
+    "company": "userinsights",
+    "location": "remote",
+    "expertise": ["user interviews", "surveys", "usability testing", "data analysis"],
+    "salary": "£60,000 - £75,000",
+    "source": "uxpa jobs"
+  },
+  {
+    "id": 79,
+    "title": ".net developer",
+    "company": "dotnet core solutions",
+    "location": "remote (usa)",
+    "expertise": ["c#", ".net core", "asp.net", "azure", "sql server"],
+    "salary": "$100,000 - $130,000",
+    "source": "stack overflow jobs"
+  },
+  {
+    "id": 80,
+    "title": "director of product",
+    "company": "productvision",
+    "location": "remote",
+    "expertise": ["product strategy", "leadership", "roadmap planning", "market research"],
+    "salary": "$190,000 - $250,000 + equity",
+    "source": "linkedin"
+  },
+  {
+    "id": 81,
+    "title": "web3 community manager",
+    "company": "dao collective",
+    "location": "remote",
+    "expertise": ["discord", "telegram", "twitter", "community engagement"],
+    "salary": "$70,000 - $90,000 (usdc/dai)",
+    "source": "web3.career"
+  },
+  {
+    "id": 82,
+    "title": "penetration tester",
+    "company": "ethical hackers inc.",
+    "location": "remote",
+    "expertise": ["kali linux", "metasploit", "burp suite", "nmap", "python"],
+    "salary": "€80,000 - €110,000",
+    "source": "hackerone"
+  },
+  {
+    "id": 83,
+    "title": "full-stack developer (mern)",
+    "company": "js everywhere",
+    "location": "remote",
+    "expertise": ["mongodb", "express", "react", "node.js"],
+    "salary": "competitive",
+    "source": "indeed"
+  },
+  {
+    "id": 84,
+    "title": "cloud data engineer (gcp)",
+    "company": "google cloud partners",
+    "location": "remote",
+    "expertise": ["bigquery", "dataflow", "pub/sub", "python", "sql"],
+    "salary": "$140,000 - $170,000",
+    "source": "google careers"
+  },
+  {
+    "id": 85,
+    "title": "magento developer",
+    "company": "estorebuilders",
+    "location": "remote",
+    "expertise": ["php", "magento 2", "mysql", "javascript"],
+    "salary": "£50,000 - £65,000",
+    "source": "toptal"
+  },
+  {
+    "id": 86,
+    "title": "customer success manager",
+    "company": "saasify",
+    "location": "remote (emea)",
+    "expertise": ["crm", "client onboarding", "customer support", "gainsight"],
+    "salary": "€50,000 - €65,000 + bonus",
+    "source": "remotive.io"
+  },
+  {
+    "id": 87,
+    "title": "senior ios engineer",
+    "company": "mobile innovations",
+    "location": "remote",
+    "expertise": ["swift", "combine", "uikit", "swiftui", "ci/cd"],
+    "salary": "$150,000 - $180,000",
+    "source": "iosdevjobs.com"
+  },
+  {
+    "id": 88,
+    "title": "graphics engineer (vulkan)",
+    "company": "rendercore",
+    "location": "remote",
+    "expertise": ["c++", "vulkan", "glsl", "linear algebra", "gpu architecture"],
+    "salary": "$140,000 - $190,000",
+    "source": "khronos group jobs"
+  },
+  {
+    "id": 89,
+    "title": "legal tech developer",
+    "company": "lawinnovate",
+    "location": "remote",
+    "expertise": ["python", "nlp", "document automation", "react"],
+    "salary": "$100,000 - $130,000",
+    "source": "legaltech hub jobs"
+  },
+  {
+    "id": 90,
+    "title": "head of remote",
+    "company": "distributed co.",
+    "location": "remote",
+    "expertise": ["remote-first culture", "operations", "hr", "communication tools"],
+    "salary": "$120,000 - $150,000",
+    "source": "running remote"
+  },
+  {
+    "id": 91,
+    "title": "firmware engineer",
+    "company": "iot devices",
+    "location": "remote",
+    "expertise": ["c", "arm cortex-m", "freertos", "i2c", "spi"],
+    "salary": "€70,000 - €90,000",
+    "source": "linkedin"
+  },
+  {
+    "id": 92,
+    "title": "technical seo manager",
+    "company": "searchenginepros",
+    "location": "remote",
+    "expertise": ["screaming frog", "deepcrawl", "log file analysis", "javascript seo"],
+    "salary": "£60,000 - £80,000",
+    "source": "moz job board"
+  },
+  {
+    "id": 93,
+    "title": "senior android engineer",
+    "company": "droidworks",
+    "location": "remote (eu)",
+    "expertise": ["kotlin", "coroutines", "flow", "dagger/hilt", "jetpack"],
+    "salary": "€80,000 - €100,000",
+    "source": "androidjobs.io"
+  },
+  {
+    "id": 94,
+    "title": "game designer",
+    "company": "pixelplay studios",
+    "location": "remote",
+    "expertise": ["game mechanics", "level design", "storytelling", "unity/unreal"],
+    "salary": "competitive",
+    "source": "gamasutra.com/jobs"
+  },
+  {
+    "id": 95,
+    "title": "it project manager",
+    "company": "execuplan",
+    "location": "remote",
+    "expertise": ["agile", "scrum", "prince2", "jira", "budgeting"],
+    "salary": "$95,000 - $115,000",
+    "source": "pmi job board"
+  },
+  {
+    "id": 96,
+    "title": "smart contract auditor",
+    "company": "certichain",
+    "location": "remote",
+    "expertise": ["solidity", "slither", "mythx", "formal verification"],
+    "salary": "$180,000 - $250,000",
+    "source": "cryptojobslist"
+  },
+  {
+    "id": 97,
+    "title": "mid-level backend developer (go)",
+    "company": "microserve",
+    "location": "remote",
+    "expertise": ["go", "gin", "postgresql", "docker", "microservices"],
+    "salary": "£60,000 - £75,000",
+    "source": "weworkremotely.com"
+  },
+  {
+    "id": 98,
+    "title": "data platform engineer",
+    "company": "infradata",
+    "location": "remote",
+    "expertise": ["kafka", "spark", "flink", "kubernetes", "scala/java"],
+    "salary": "$150,000 - $180,000",
+    "source": "dataengjobs.com"
+  },
+  {
+    "id": 99,
+    "title": "senior product manager, growth",
+    "company": "useracquire",
+    "location": "remote (us)",
+    "expertise": ["a/b testing", "data analysis", "growth funnels", "sql"],
+    "salary": "$160,000 - $190,000",
+    "source": "reforge job board"
+  },
+  {
+    "id": 100,
+    "title": "frontend architect",
+    "company": "frontiers",
+    "location": "remote",
+    "expertise": ["react", "system design", "micro-frontends", "web performance", "leadership"],
+    "salary": "€110,000 - €140,000",
+    "source": "linkedin"
+  }
+]

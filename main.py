@@ -4,9 +4,14 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters 
 from dotenv import load_dotenv
 load_dotenv()
+import json
+
+with open('data/jobs.json', 'r') as file:
+    jobs_data = json.load(file)
 
 TOKEN: Final[str] = os.getenv("Token")
 BOT_USERNAME: Final[str] = os.getenv("BOT_USERNAME")
+
 
 # Commands
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -23,6 +28,41 @@ async def custom_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     await update.message.reply_text(
         f"this is a custom command"
     )
+
+async def jobs_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    jobs = []
+    args = context.args
+    if not args:
+        await update.message.reply_text(
+            "Please provide a job title or keyword."
+        )
+        return
+    
+    for job in jobs_data:
+        if any(expertise in args for expertise in job['expertise']):
+            jobs.append(job)
+    if not jobs:
+        await update.message.reply_text(
+            "No jobs found matching your criteria."
+        )
+        return
+    
+
+
+    if jobs:
+        for job in jobs:
+            job_text = (
+                f"🏢 <b>{job['title'].title()}</b> at <b>{job['company'].title()}</b>\n"
+                f"🌍 Location: {job['location'].title()}\n"
+                f"💼 Expertise: {', '.join(job['expertise'])}\n"
+                f"💰 Salary: {job['salary']}\n"
+                f"🔗 Source: {job['source'].title()}\n"
+                f"🆔 Job ID: {job['id']}"
+            )
+            await update.message.reply_text(job_text, parse_mode="HTML")
+
+    # for job in jobs_data:
+    #     if 
 
 # Responses
 
@@ -66,6 +106,7 @@ if __name__ == '__main__':
     app.add_handler(CommandHandler('start', start_command))
     app.add_handler(CommandHandler('help', help_command))
     app.add_handler(CommandHandler('custom', custom_command))
+    app.add_handler(CommandHandler('jobs', jobs_command))
 
     # Messages
     app.add_handler(MessageHandler(filters.TEXT, handle_message))

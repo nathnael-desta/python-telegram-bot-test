@@ -89,6 +89,48 @@ async def rank_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
             rank_text = f"{arg.title()} is not found in the expertise list."
         await update.message.reply_text(rank_text)
 
+async def search_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    jobs = []
+    args = context.args
+    if not args:
+        await update.message.reply_text(
+            "Please provide a keyword."
+        )
+        return
+    
+    for job in jobs_data:
+        for keyword in args:
+            for value in job.values():
+                if isinstance(value, list):
+                    if keyword in value:
+                        jobs.append(job)
+                        break
+                elif isinstance(value, str) and keyword.lower() in value.lower():
+                    jobs.append(job)
+                    break
+                elif isinstance(value, dict):
+                    if keyword in value.values():
+                        jobs.append(job)
+                        break
+
+    if not jobs:
+        await update.message.reply_text(
+            "No jobs found matching your criteria."
+        )
+        return
+
+    if jobs:
+        for job in jobs:
+            job_text = (
+                f"🏢 <b>{job['title'].title()}</b> at <b>{job['company'].title()}</b>\n"
+                f"🌍 Location: {job['location'].title()}\n"
+                f"💼 Expertise: {', '.join(job['expertise'])}\n"
+                f"💰 Salary: {job['salary']}\n"
+                f"🔗 Source: {job['source'].title()}\n"
+                f"🆔 Job ID: {job['id']}"
+            )
+            await update.message.reply_text(job_text, parse_mode="HTML")
+
 def handle_response(text: str) -> str:
     if 'hello' in text.lower():
         return "Hello! How can I assist you today?"
@@ -131,6 +173,7 @@ if __name__ == '__main__':
     app.add_handler(CommandHandler('custom', custom_command))
     app.add_handler(CommandHandler('jobs', jobs_command))
     app.add_handler(CommandHandler('rank', rank_command))
+    app.add_handler(CommandHandler('search', search_command))
 
     # Messages
     app.add_handler(MessageHandler(filters.TEXT, handle_message))
